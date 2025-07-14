@@ -1,7 +1,7 @@
 function Info() {
     return (
         <>
-            <img src="./assests/" alt="this is amir's photo"/>"
+            <img src="./src/assets/koja.jpg" alt="this is amir's photo"/>"
             <div>
                  <h2>Kassim Amir</h2>
                 <p>Frontend Developer</p>
