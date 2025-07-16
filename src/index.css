@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #1A1B21;
 }
 
 .info-header {
@@ -9,13 +10,15 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header > img {
     width: 200px;
     height: 200px;
     align-self: center;
-    border-radius: 50%;;
+    border-radius: 50%;
+    margin-top: 0;
 }
 
 .info-text {
@@ -36,7 +39,7 @@ div > h2 {
 
 div > p{
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     font-weight: 100;
 }
 
@@ -45,7 +48,16 @@ div > button{
     margin-left: 10px;
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 1.3rem;
+    padding: 5px 20px;
     cursor: pointer;
+}
+
+#linkedin {
+    background-color: #4361ee;
+    color: white;
+}
+
+#email {
+    background-color: white;
+    color: black;
 }

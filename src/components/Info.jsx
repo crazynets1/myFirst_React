@@ -5,8 +5,8 @@ function Info() {
             <div className="info-text">
                 <h2>Kassim Amir</h2>
                 <p>Frontend Developer</p>
-                <button type="button" onClick={() => window.location.href="www.gmail.com"}>Email</button>
-                <button type="button">LinkedIn</button>
+                <button id="email" type="button" onClick={() => window.location.href="www.gmail.com"}>Email</button>
+                <button id="linkedin" type="button">LinkedIn</button>
             </div>
         </header>
     )
