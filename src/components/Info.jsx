@@ -1,14 +1,14 @@
 function Info() {
     return (
-        <>
-            <img src="./src/assets/koja.jpg" alt="this is amir's photo"/>"
-            <div>
-                 <h2>Kassim Amir</h2>
+        <header className="info-header">
+            <img src="./src/assets/koja.jpg" alt="this is amir's photo"/>
+            <div className="info-text">
+                <h2>Kassim Amir</h2>
                 <p>Frontend Developer</p>
-                <p>Email: amir.kassim946@gmail.com</p>
-                <p>LinkedIn: your-linkedin-profile</p>
+                <button type="button" onClick={() => window.location.href="www.gmail.com"}>Email</button>
+                <button type="button">LinkedIn</button>
             </div>
-        </>
+        </header>
     )
 }
 
