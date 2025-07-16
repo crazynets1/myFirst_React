@@ -61,3 +61,10 @@ div > button{
     background-color: white;
     color: black;
 }
+
+.about-container {
+    color: white;
+    display: block;
+    text-align: center;
+    justify-content: flex-start;
+}
