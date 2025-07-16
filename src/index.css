@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.info-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header > img {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 50%;;
+}
+
+.info-text {
+    margin-top: 0;
+    display: block;
+    justify-content: center;
+    color: black;
+}
+
+div > h2 {
+    align-self:center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+div > p{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 100;
+}
+
+div > button{
+    margin-top: 0;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
