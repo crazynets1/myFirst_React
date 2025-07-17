@@ -6,7 +6,7 @@ body {
 
 .info-header {
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -37,10 +37,11 @@ div > h2 {
     text-align: center;
 }
 
-div > p{
+header > div > p{
     margin-top: 0;
     margin-bottom: 15px;
     font-weight: 100;
+    color: #03045e;
 }
 
 div > button{
