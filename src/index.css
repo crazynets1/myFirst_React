@@ -1,16 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Inter, sans-serif;
-    background-color: #1A1B21;
+    background-color: #3c096c;
 }
 
 .info-header {
-    background-color: #f0f0f0;
+    background-color: #5a189a;
     padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rebeccapurple;
+    border-radius: 8px;
 }
 
 header > img {
@@ -65,48 +72,55 @@ div > button{
 
 .about-container {
     color: white;
-    display: block;
+    display: flex;
     text-align: center;
     justify-content: flex-start;
-    margin: auto;
+    margin: 10px auto;
+    width: 50%;
+    background-color: #5a189a;
+    padding: 15px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rebeccapurple;
+    border-radius: 8px;
 }
 
 .about-container > h2 {
-    margin: 0 auto;
-    padding: 8px;
-    width: 50%;
     font-size: 1.8rem;
     text-align: left;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .about-container > p {
     text-align: left;
-    margin: 0 auto;
-    width: 50%;
-    padding: 8px;
     font-size: 18px;
     font-weight: 100;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    display: inline-block;
 }
 
 .interests {
     color: white;
     display: block;
-    text-align: left;
     justify-content: flex-start;
-    margin: auto;
+    margin: 5px auto;
     width: 50%;
+    background-color: #5a189a;
+    padding: 15px;
+    box-shadow: 0 4px 8px rebeccapurple;
+    border-radius: 8px;
 }
 
 .interests > h2 {
     font-size: 1.8rem;
-    text-align: left;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 .interests > p {
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 4px;
     font-weight: 600;
     font-size: 1.5rem;
@@ -117,4 +131,28 @@ div > button{
     list-style-type: none;
     padding: 0;
     margin-top: 0;
+}
+
+.footer {
+    width: 50%;
+    margin: 15px auto;
+    background-color: #5a189a;
+    text-align: center;
+    box-shadow: 0 4px 8px rebeccapurple;
+    border-radius: 8px;
+    color: white;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a > img{
+    width: 50px;
+}
+
+span{
+    font-size: 1rem;
+    font-weight: 900;
 }
